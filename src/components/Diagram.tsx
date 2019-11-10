@@ -317,7 +317,7 @@ $(go.Node, "Auto",
   }
 
   public render() {
-    console.log(this.props.modelData);
+    
     return (
       <ReactDiagram
         ref={this.diagramRef}

@@ -272,7 +272,7 @@ class App extends React.Component<{}, AppState> {
         if (modifiedModelData) {
           draft.modelData = modifiedModelData;
         }
-        draft.skipsDiagramUpdate = true;  // the GoJS model already knows about these updates
+        draft.skipsDiagramUpdate = false;  // the GoJS model already knows about these updates
       })
     );
   }
@@ -332,6 +332,7 @@ class App extends React.Component<{}, AppState> {
                   */
       inspector="Can Add Port"
     }
+    console.log(this.state);
     return (
       <div>
         <p>
