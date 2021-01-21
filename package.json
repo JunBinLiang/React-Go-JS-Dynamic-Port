@@ -20,7 +20,7 @@
     "fs-extra": "^8.1.0",
     "gojs": "^2.1.0-beta1",
     "gojs-react": "^1.0.0",
-    "immer": "^4.0.0",
+    "immer": "^8.0.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "^3.1.2",
